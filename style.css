@@ -1,0 +1,25 @@
+.lista-nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    vertical-align: bottom;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8d8d8d;
+    transition: .5s;
+}
+
+header {
+    background-color: #E51A1A;
+    width: 100vh;
+    height: 100px;
+}
