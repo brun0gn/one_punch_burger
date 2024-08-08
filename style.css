@@ -1,12 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#red {
+    width: 100%;
+    background-color: #E51A1A;
+    height: 20vh;
+}
+
 .lista-nav {
     display: flex;
-    gap: 20px;
+    justify-content: space-around;
     list-style: none;
     text-decoration: none;
-    background-color: #000;
     color: #fff;
-    vertical-align: bottom;
+    text-align: center;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    padding-inline: 15%;
+    font-size: 17px;
 }
+
+header {
+    text-align: center;
+}
+
+header img{
+    margin-top: 28px;
+}
+ 
+.lista-nav li {
+    background-color: #DF9320;
+    padding: 8px;
+    border-radius: 20px;
+    width: 15%;
+} 
 
 a {
     color: #fff;
@@ -14,12 +45,12 @@ a {
 }
 
 a:hover {
-    color: #8d8d8d;
+    color: #dfdfdf;
     transition: .5s;
 }
 
-header {
-    background-color: #E51A1A;
-    width: 100vh;
-    height: 100px;
+
+main {
+    height: 60vh;
+    background-image: url(image\ 19.png);
 }
